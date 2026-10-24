@@ -1,0 +1,19 @@
+# Local companion progress and runtime diagnostics
+moonloader/config/
+moonloader/moonloader.log
+*.log
+
+# Python test helpers and editor state
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local dependencies, verification output and release archives
+.venv/
+node_modules/
+dist/
+*.zip
+*.tmp
